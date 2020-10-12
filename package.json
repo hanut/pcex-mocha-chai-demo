@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "mocha --reporter=list --watch",
+    "test": "mocha",
+    "precover": "yarn test",
+    "cover": "nyc --reporter=html mocha --reporter=min"
+  },
+  "keywords": [],
+  "author": "Hanut Singh Gusain",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0"
+  }
+}

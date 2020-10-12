@@ -1,0 +1,13 @@
+{
+  "diff": true,
+  "bail": true,
+  "exit": true,
+  "extension": ["js"],
+  "package": "./package.json",
+  "reporter": "list",
+  "slow": 50,
+  "timeout": 1000,
+  "ui": "bdd",
+  "spec": ["tests/unit/**/*.js"],
+  "watch-files": ["src/**/*.js", "tests/**/*.js"]
+}
